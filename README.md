@@ -1,4 +1,4 @@
-# AI Shorts Generator v12
+# AI Shorts Generator v1
 
 Long video to viral shorts - 100% local - GPU-accelerated
 
@@ -24,7 +24,7 @@ Or manually:
 
 ---
 
-## v12 Changes
+## v1 Changes
 
   1. WhisperX added as third transcription engine
   2. All engines: 30-second language probe (fast auto-detect)
