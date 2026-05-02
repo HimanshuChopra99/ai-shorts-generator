@@ -57,7 +57,7 @@ IF ERRORLEVEL 1 (
 ) ELSE (
     echo NVIDIA GPU found - installing PyTorch cu124.
     echo NOTE: CUDA 13.x drivers work with cu124 wheels - no cu130 exists.
-    python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124 --quit
+    python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 )
 IF ERRORLEVEL 1 (
     echo [ERROR] PyTorch install failed.
