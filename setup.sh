@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# setup.sh - AI Shorts Generator v12
+# setup.sh - AI Shorts Generator v1
 set -e
 
-echo "AI Shorts Generator v12 - Setup"
+echo "AI Shorts Generator v1 - Setup"
 echo "================================"
 echo ""
 echo "CUDA NOTE: CUDA 13.x uses cu124 PyTorch wheels (no cu130 exists)."

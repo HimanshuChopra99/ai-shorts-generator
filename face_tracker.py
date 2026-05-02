@@ -1,5 +1,5 @@
 """
-face_tracker.py  (v12)
+face_tracker.py  (v1)
 
 Face detection priority (GPU first where available):
   1. OpenCV DNN Face Detector   (res10_300x300_ssd - CUDA GPU backend)

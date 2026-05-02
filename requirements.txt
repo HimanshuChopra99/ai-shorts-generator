@@ -1,4 +1,4 @@
-# AI Shorts Generator v12 - Python Dependencies
+# AI Shorts Generator v1 - Python Dependencies
 # Pure ASCII - no Unicode chars (Windows cp1252 safe)
 # ============================================================
 #

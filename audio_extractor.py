@@ -1,5 +1,5 @@
 """
-audio_extractor.py  (v12)
+audio_extractor.py  (v1)
 
 Outputs WAV PCM 16kHz mono - Whisper native format.
 GPU CUDA hwaccel for video decode (faster), CPU fallback.

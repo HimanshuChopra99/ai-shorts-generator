@@ -1,5 +1,5 @@
 """
-viral_detector.py  (v12)
+viral_detector.py  (v1)
 
 OpenRouter: 4 free model fallback, 429/402/503 error handling, retry.
 Local NLP fallback when no API key or all models fail.

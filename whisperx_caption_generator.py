@@ -1,5 +1,5 @@
 """
-whisperx_caption_generator.py  (v12)
+whisperx_caption_generator.py  (v1)
 
 Advanced captions via WhisperX ASS subtitles.
   - Word-level forced alignment (wav2vec2)

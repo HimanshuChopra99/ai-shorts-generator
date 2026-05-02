@@ -1,5 +1,5 @@
 """
-caption_generator.py  (v12)
+caption_generator.py  (v1)
 
 Standard caption renderer using Pillow + FFmpeg NVENC pipe.
 - Caption timing: word-level timestamps with 0.05s lookahead

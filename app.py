@@ -1,9 +1,9 @@
 """
-AI Shorts Generator - Main Streamlit App  (v12)
+AI Shorts Generator - Main Streamlit App  (v1)
 
 Run with:  python -m streamlit run app.py
 
-v12 Changes:
+v1 Changes:
   - WhisperX added as third transcription engine option
   - All engines use 30-second language probe (fast auto-detect)
   - OpenCV DNN face detector (GPU) -> MediaPipe -> Haar fallback
@@ -308,7 +308,7 @@ def _pipeline_thread(source, is_youtube, num_shorts,
         # ── Terminal summary ──────────────────────────────────────────────────
         print("")
         print("=" * 62)
-        print("  AI SHORTS GENERATOR v12 - PIPELINE COMPLETE")
+        print("  AI SHORTS GENERATOR v1 - PIPELINE COMPLETE")
         print("=" * 62)
         print(f"  Shorts generated  : {len(final_paths)}")
         print(f"  Language detected : {det_lang}")
@@ -364,7 +364,7 @@ def _drain_queue():
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="main-header">
-  <h1>🎬 AI Shorts Generator <span style="font-size:1rem;opacity:.8">v12</span></h1>
+  <h1>🎬 AI Shorts Generator <span style="font-size:1rem;opacity:.8">v1</span></h1>
   <p>Long video to Viral Shorts &nbsp;|&nbsp; 100% Local &nbsp;|&nbsp; GPU-Accelerated &nbsp;|&nbsp; WhisperX Engine</p>
 </div>
 """, unsafe_allow_html=True)

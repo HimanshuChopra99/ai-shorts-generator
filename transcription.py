@@ -1,5 +1,5 @@
 """
-transcription.py  (v12)
+transcription.py  (v1)
 
 Three transcription backends:
   1. openai-whisper   (original, GPU fp32)

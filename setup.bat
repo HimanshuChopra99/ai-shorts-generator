@@ -1,12 +1,12 @@
 @echo off
 REM ============================================================
-REM  setup.bat  -  AI Shorts Generator v12
+REM  setup.bat  -  AI Shorts Generator v1
 REM  Run ONCE to create venv and install all dependencies.
 REM ============================================================
 
 echo.
 echo ============================================================
-echo   AI Shorts Generator v12 - Windows Setup
+echo   AI Shorts Generator v1 - Windows Setup
 echo ============================================================
 echo.
 

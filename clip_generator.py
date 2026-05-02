@@ -1,5 +1,5 @@
 """
-clip_generator.py  (v12)
+clip_generator.py  (v1)
 
 FFmpeg clip cutting strategy:
   - CPU FIRST  (libx264) for cutting - more compatible, avoids seek drift
