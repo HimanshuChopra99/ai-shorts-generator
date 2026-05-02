@@ -1,0 +1,60 @@
+# AI Shorts Generator v12 - Python Dependencies
+# Pure ASCII - no Unicode chars (Windows cp1252 safe)
+# ============================================================
+#
+# STEP 1 - Install PyTorch (run BEFORE this file):
+#
+#   CUDA 12.4 / 13.x (RECOMMENDED for NVIDIA GPU):
+#     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
+#
+#   CPU only:
+#     pip install torch torchvision torchaudio
+#
+# STEP 2 - Install Whisper engines (ONE or BOTH):
+#   pip install openai-whisper
+#   pip install faster-whisper
+#
+# STEP 3 - WhisperX transcription + captions (OPTIONAL):
+#   pip install whisperx
+#   Downloads wav2vec2 alignment model on first use (~1.3GB)
+#
+# STEP 4 - This file:
+#   pip install -r requirements.txt
+#
+# FFmpeg (REQUIRED):
+#   Windows : https://www.gyan.dev/ffmpeg/builds/ (full build, add bin to PATH)
+#   Linux   : sudo apt install ffmpeg
+#   macOS   : brew install ffmpeg
+#
+# OpenCV DNN face model files (auto-downloaded on first run):
+#   deploy.prototxt          (~28KB)
+#   res10_300x300_ssd_iter_140000.caffemodel  (~10MB)
+# ============================================================
+
+# Core UI
+streamlit>=1.32.0
+
+# Video download
+yt-dlp>=2024.3.10
+
+# GPU/CPU (installed separately)
+#torch>=2.3.0
+#torchaudio>=2.3.0
+numpy>=1.24.0
+
+# Computer vision
+opencv-python>=4.9.0.80
+Pillow>=10.3.0
+
+# MediaPipe face detection (CPU fallback)
+mediapipe>=0.10.14
+
+# Video tools
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.9
+
+# OpenRouter API (optional)
+requests>=2.31.0
+
+# Utilities
+tqdm>=4.66.0
