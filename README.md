@@ -14,6 +14,8 @@
 
 **AI Shorts Generator** is a fully local, open-source tool that automatically detects the most engaging moments in long videos and turns them into polished vertical short clips — ready for YouTube Shorts, Instagram Reels, or TikTok.
 
+This **open-source** alternative to AI clipping platforms like Opus Clip, Vidyo.ai, Klap, SubMagic, and 2short.ai. Paste any long-form YouTube video and instantly generate ranked, viral-style 9:16 short clips — completely free, with zero clip limits, no watermarks, and complete control over how highlights are selected.
+
 No cloud APIs required. No data leaves your machine. Everything runs on your GPU.
 
 ### ✨ Key Features
